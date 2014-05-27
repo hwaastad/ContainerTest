@@ -5,6 +5,7 @@
  */
 package org.waastad.containertesting;
 
+import javax.annotation.ManagedBean;
 import javax.ejb.EJB;
 import org.apache.openejb.junit.jee.EJBContainerRule;
 import org.apache.openejb.junit.jee.InjectRule;
@@ -19,14 +20,13 @@ import org.junit.ClassRule;
 import org.junit.Rule;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations;
 
 /**
  *
  * @author helge
  */
 @Properties({
-    @Property(key = "org.apache.openejb.injection.FallbackPropertyInjector",value = "org.apache.openejb.mockito.MockitoInjector")
+    @Property(key = "org.apache.openejb.injection.FallbackPropertyInjector", value = "org.apache.openejb.mockito.MockitoInjector")
 })
 public class HelloBeanTest {
 
@@ -53,7 +53,7 @@ public class HelloBeanTest {
 
     @Before
     public void setUp() {
-        MockitoAnnotations.initMocks(this);
+//        MockitoAnnotations.initMocks(this);
     }
 
     @After

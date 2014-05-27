@@ -22,12 +22,12 @@
             <version>4.7.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>        
-       <!-- <dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>org.apache.openejb</groupId>
             <artifactId>openejb-mockito</artifactId>
@@ -47,9 +47,9 @@
             <id>apache-m2-snapshot</id>
             <name>Apache Snapshot Repository</name>
             <url>http://repository.apache.org/snapshots</url>
-            <!--  <snapshots>
+            <snapshots>
                 <updatePolicy>always</updatePolicy>
-            </snapshots>-->
+            </snapshots>
         </repository>
     </repositories>
     <pluginRepositories>
@@ -57,9 +57,9 @@
             <id>apache-m2-snapshot-plugin</id>
             <name>Apache Snapshot Repository</name>
             <url>http://repository.apache.org/snapshots</url>
-            <!--   <snapshots>
+            <snapshots>
                 <updatePolicy>always</updatePolicy>
-            </snapshots>-->
+            </snapshots>
         </pluginRepository>
     </pluginRepositories>
 </project>
