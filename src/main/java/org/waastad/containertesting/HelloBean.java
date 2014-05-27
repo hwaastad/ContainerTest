@@ -16,7 +16,7 @@ import javax.ejb.Stateless;
 public class HelloBean implements HelloBeanLocal {
 
     @EJB
-    private TestBeanLocal testBean;
+    private TestBean testBean;
 
     @Override
     public String sayHello() {

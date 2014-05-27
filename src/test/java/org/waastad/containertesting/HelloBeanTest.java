@@ -38,7 +38,7 @@ public class HelloBeanTest {
     @EJB
     private HelloBeanLocal helloBeanLocal;
     @Mock
-    private TestBeanLocal mockTestBean;
+    private TestBean mockTestBean;
 
     public HelloBeanTest() {
     }
